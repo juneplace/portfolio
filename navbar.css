@@ -1,33 +1,16 @@
-nav {
-	width: 100vw;
-	transition: 0.5s ease;
-	height: 60px;
-	grid-column: 2/3;
+.wrapper {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 }
-.nav ul{
-	display: grid;
-	grid-template-columns: auto auto auto auto;
-	align-items: center;
+.nav{
+	display: flex;
 	justify-content: space-evenly;
-	margin: 0 auto;
 }
-
-#h{
-	grid-column: 1;
-}
-#a {
-	grid-column: 2;
-}
-#p {
-	grid-column: 3;
-}
-#c {
-	grid-column: 4;
-}
-.nav a {
+.nav-link{
 	text-decoration: none;
 	background: transparent;
-	
+	color: #333;
 }
 .nav li {
 	background: transparent;
@@ -64,7 +47,7 @@ nav a {
 @media (min-width: 1440px){
 	.nav a {
 		font-size: 1.25em;
-		letter-spacing: 1vw;
+		letter-spacing: .5vw;
 	}
 }
 

@@ -1,11 +1,34 @@
+.aboutCv p {
+	font-family: "Candara";
+	font-variant: normal;	
+	font-weight: lighter;	
+}
+.sub {
+	font-family: "Bradley Hand ITC";
+	color: #D90452;
+	font-variant: normal;
+}
+.mn {
+	font-family: "Candara";
+	font-variant: normal;
+	font-weight: lighter;
+}
+.card1 {
+	border: #D90452 2px solid;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.card1 h4 {
+	color: #D90452;
+	font-family: "Bodoni MT";
+}
+.card1:hover {
+	box-shadow: 0 0 0 0 rgba(0,0,0,0.2), 0 0 0 0 rgba(0,0,0,0.19);
+
+}
 @media (min-width: 300px){
-	.about {
-		display: grid;
-		grid-template-columns: 100%;
-		justify-content: center;
-		align-content: center;	
-		padding: 20px;
-		}
 		.row1 p{
 			letter-spacing: 1px;
 			font-family: "Roboto", sans-serif;
@@ -14,127 +37,70 @@
 			font-size: 17px;
 			margin-bottom: 50px;
 			}
-			.row1{
-				grid-column: 1;
-				}
-				.aboutCv {
-					grid-column: 1;
-				}
-				.about h2 {
-					text-align: center;
-				}
+
 }
 @media (min-width: 768px){
-	.about {
-		display: grid;
-		grid-template-columns: 100%;
-		justify-content: center;
-		align-content: center;	
-		padding: 75px;
-		}
-	.row1 p{
+.row1 p{
 	letter-spacing: 1px;
 	font-family: "Roboto", sans-serif;
 	font-variant: normal;
 	font-weight: 500;
 	font-size: 20px;
 	}
-	.row1{
-	grid-column: 1;
-	}
-	.aboutCv {
-		grid-column: 1;
-	}
-	.about h2 {
-		text-align: center;
-	}
 }
 @media (min-width: 1024px) {
-	.about{
-		display: grid;
-		grid-template-columns: 45% 45%;
-		justify-content: space-around;
-		align-content: center;	
-		padding: 75px;
-		}
-		.about h2 {
-			text-align: left;
-		}
+
 	.row1 p{
 		letter-spacing: 1px;
 		font-variant: normal;
 		}
 	.row1{
 		margin-bottom: 50px;
-		grid-column: 1;
-			}
-	.aboutCv {
-		grid-column: 2;
-		
 			}
 }
 @media (min-width: 1440px) {
 	.about {
+		padding-top: 50px;
+		}
+	.about h2 {
+		text-align: left;
+		}
+	.aboutCv p {
+		font-size: 30px;
+	}
+	.aboutCv {
+		justify-items: left;
+		margin-left: 550px;
+		width: 56%;
+	}
+	.sub {
+		font-size: 30px;
+	}
+	table {
+		margin-top: 50px;
+		margin-left: 0;
+	}
+	td {
+		padding: 15px;
+		text-align: left;
+	}
+	.mn {
+		font-size: 30px;
+	}
+	.cardwrapper {
 		display: grid;
 		grid-template-columns: 45% 45%;
 		justify-content: space-between;
-		padding: 75px;
-		align-content: initial;
-		overflow: visible;
-		}
-		.about h2 {
-			text-align: left;
-		}
-	.aboutCv {
-		grid-column: 2;
+		grid-template-rows: auto auto;
 	}
-	.row1 {
-		text-align: right;
-		grid-column: 1;
-		}
-	.row1 p {
-		margin-top: 30px;
-		font-family: "Roboto", sans-serif;
-		font-variant: normal;
-		font-weight: 500;
-		font-size: 20px;
-	 	}
+	.card1 {
+		grid-column: auto;
+		grid-row: auto;
+		text-align: center;
+	}
+	.card1 p {
+		font-size: 25px;
+	}
 }
 
-
-
-
-.separating {
-justify-content: center;
-align-content: initial;
-background: url(images/10.png);
-border: #333 5px solid;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-padding: 20px;
-padding-top: 20px;
-}
-
-.separating h4 {
-	font-family: 'Merriweather', serif;
-	letter-spacing: 5px;
-	margin-bottom: 20px;
-
-}
-.separating p {
-	font-family: 'Roboto', sans-serif;
-	font-variant: normal;
-	letter-spacing: 3px;
-	margin-bottom: 40px;
-
-}
-.cardy {
-	border-bottom: #333 1px solid;
-}
-.separating hr{
-	color: black;
-	background-color: black;
-}
-
-
+  

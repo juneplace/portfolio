@@ -17,22 +17,7 @@
    }
 
     .contact {
-        display: grid;
-        grid-template-columns: 100%;
-        justify-content: space-between;
-        padding: 20px;
-        align-content: center;
         margin-bottom: 10px;
-    }
-    
-    .contactme {
-        grid-column: 1;
-        justify-content: center;
-    }
-    
-    .contactme h2 {
-        text-align: center;
-
     }
     .contact-link {
         margin-top: 50px;
@@ -51,21 +36,7 @@
 }
 @media (min-width: 768px){
     .contact {
-        display: grid;
-        grid-template-columns: 100%;
-        justify-content: space-between;
-        padding: 75px;
-        align-content: center;
         margin-bottom: 10px;
-    }
-    
-    .contactme {
-        grid-column: 1;
-        justify-content: right;
-    }
-    
-    .contactme h2 {
-        text-align: center;
     }
     .contact-link {
         margin-top: 50px;
@@ -86,24 +57,7 @@
 }
 @media (min-width: 1024px){
     .contact {
-        display: grid;
-        grid-template-columns: 45% 45%;
-        grid-template-rows: 100%;
-        justify-content: space-between;
-        padding: 75px;
-        align-content: center;
         margin-bottom: 10px;
-    }
-    
-    .contactme {
-        grid-column: 2;
-        grid-row: 1;
-        justify-content: right;
-    }
-    
-    .contactme h2 {
-        text-align: right;
-        font-size: 70px;
     }
     .contact-link {
         margin-top: 50px;
@@ -123,25 +77,13 @@
     }
 }
 @media (min-width: 1440px){
+    .contacting {
+        justify-items: right;
+		margin-left: 550px;
+		width: 56%;
+    }
     .contact {
-        display: grid;
-        grid-template-columns: 45% 45%;
-        grid-template-rows: 100%;
-        justify-content: space-between;
-        padding: 75px;
-        align-content: center;
         margin-bottom: 10px;
-    }
-    
-    .contactme {
-        grid-column: 2;
-        grid-row: 1;
-        justify-content: right;
-    }
-    
-    .contactme h2 {
-        text-align: right;
-        font-size: 70px;
     }
     .contact-link {
         margin-top: 50px;
