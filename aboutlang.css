@@ -1,15 +1,13 @@
 .services{
 	padding-top: 50px;		
 }
-.servicetitle, .serviceintro {
-	font-family: "Candara";
-}
 .row2 {
 	margin-bottom: 50px;
 }
 .serviceintro {
 	font-variant: normal;
 }
+
  
 @media (min-width: 300px) {
     .aboutLang {

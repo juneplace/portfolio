@@ -1,5 +1,4 @@
 .aboutCv p {
-	font-family: "Candara";
 	font-variant: normal;	
 	font-weight: lighter;	
 }
@@ -9,7 +8,6 @@
 	font-variant: normal;
 }
 .mn {
-	font-family: "Candara";
 	font-variant: normal;
 	font-weight: lighter;
 }
@@ -65,6 +63,9 @@
 		text-align: left;
 		}
 	.aboutCv p {
+		font-size: 30px;
+	}
+	.aboutCv h4 {
 		font-size: 30px;
 	}
 	.aboutCv {
