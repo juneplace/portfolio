@@ -1,12 +1,15 @@
-.lang span {
-    padding: 20px; 
-	font-family: 'Roboto', sans-serif;
+.services{
+	padding-top: 50px;		
+}
+.servicetitle, .serviceintro {
+	font-family: "Candara";
+}
+.row2 {
+	margin-bottom: 50px;
+}
+.serviceintro {
 	font-variant: normal;
- }
- .pageSection p {
-	margin: 50px 20px;
-	line-height: 0.1em;
- }
+}
  
 @media (min-width: 300px) {
     .aboutLang {
@@ -31,8 +34,20 @@
 	}
 }
 @media (min-width: 1400px){
-	.aboutLang {
-		height: 100%;
+	.wrapper1 {
+		justify-items: left;
+		margin-left: 550px;
+		width: 56%;
+	}
+	.servicetitle {
+		font-size: 30px;
+	}
+	.serviceintro {
+		font-size: 25px;
+	}
+	.service {
+		margin-top: 35px;
+		margin-bottom: 35px;
 	}
 }
 
