@@ -6,6 +6,10 @@
 }
 .serviceintro {
 	font-variant: normal;
+	font-weight: lighter;
+}
+.servicetitle {
+	color: #D90452;
 }
 
  
