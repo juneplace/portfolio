@@ -1,12 +1,7 @@
 .project1 {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   background-color: #262626;
-}
-.project1:hover {
-  background-image: url(images/1.jpg);
-  background-size: cover;
-  background-position: center;
-  color: #262626;
+  transition: .5s ease;
 }
 .projecttitle span{
   color: #D90452;
@@ -20,6 +15,16 @@
 .projectintro {
   font-weight: lighter;
   font-variant: normal;
+}
+
+.project1:hover {
+  background-image: url(images/comp1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.projecttitle span:hover {
+  background-color: rgba(0,0,0,0);
 }
 
 @media (min-width: 300px){
