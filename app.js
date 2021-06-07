@@ -14,3 +14,47 @@ window.addEventListener(
   );
 
 
+  $(document).ready(function(){
+    $('#project1').mouseover(function(){
+        $('#projecttitle1').css({'visibility': 'hidden'});
+        $('#projectintro1').css({'visibility': 'hidden'});
+        $('#projectsub1').css({'visibility': 'visible'});
+    }).mouseout(function(){
+        $('#projecttitle1').css({'visibility': 'visible'});
+        $('#projectintro1').css({'visibility': 'visible'});
+        $('#projectsub1').css({'visibility': 'hidden'});
+    })
+    });
+    $(document).ready(function(){
+        $('#project2').mouseover(function(){
+            $('#projecttitle2').css({'visibility': 'hidden'});
+            $('#projectintro2').css({'visibility': 'hidden'});
+            $('#projectsub2').css({'visibility': 'visible'});
+        }).mouseout(function(){
+            $('#projecttitle2').css({'visibility': 'visible'});
+            $('#projectintro2').css({'visibility': 'visible'});
+            $('#projectsub2').css({'visibility': 'hidden'});
+        })
+        });
+        $(document).ready(function(){
+            $('#project3').mouseover(function(){
+                $('#projecttitle3').css({'visibility': 'hidden'});
+                $('#projectintro3').css({'visibility': 'hidden'});
+                $('#projectsub3').css({'visibility': 'visible'});
+            }).mouseout(function(){
+                $('#projecttitle3').css({'visibility': 'visible'});
+                $('#projectintro3').css({'visibility': 'visible'});
+                $('#projectsub3').css({'visibility': 'hidden'});
+            })
+            });
+            $(document).ready(function(){
+                $('#project4').mouseover(function(){
+                    $('#projecttitle4').css({'visibility': 'hidden'});
+                    $('#projectintro4').css({'visibility': 'hidden'});
+                    $('#projectsub4').css({'visibility': 'visible'});
+                }).mouseout(function(){
+                    $('#projecttitle4').css({'visibility': 'visible'});
+                    $('#projectintro4').css({'visibility': 'visible'});
+                    $('#projectsub4').css({'visibility': 'hidden'});
+                })
+                });

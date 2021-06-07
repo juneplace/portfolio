@@ -23,9 +23,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.projecttitle span:hover {
-  background-color: rgba(0,0,0,0);
-}
+
 
 @media (min-width: 300px){
 
