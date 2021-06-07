@@ -69,13 +69,17 @@ h2 {
 	text-align: center;
 }
 .vl {
-	border-left: 2px solid #D90452;
-	height: 900vh;
-	position: absolute;
+	display: block;
+	width: 10px;
+	height: 100vh;
+	position: fixed;
+	z-index: 3;
+	background: linear-gradient(to bottom, #D90452 var(--scroll), transparent 0);
+	background-repeat: no-repeat;
+	border-left: 2px solid ;
 	left: 150px;
 	top: 0;
 	bottom: 0;
-	z-index: 3;
 }
 
 }
