@@ -1,15 +1,13 @@
-.wrapper {
+
+.nav{
+
+	justify-content: space-evenly;
 	top: 0;
 	left: 0;
 	right: 0;
 	position: -webkit-sticky;
 	position: sticky;
 	width: 100%;
-}
-.nav{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
 }
 .nav-link{
 	text-decoration: none;
