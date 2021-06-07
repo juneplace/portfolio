@@ -71,7 +71,7 @@ h2 {
 .vl {
 	display: block;
 	width: 10px;
-	height: 100vh;
+	height: var(--scroll-per);
 	position: fixed;
 	border-left: 2px solid #D90452;
 	background-repeat: no-repeat;
