@@ -4,11 +4,15 @@
 .contact-link {
     display: flex;
     align-items: center;
-    border: #333 5px solid;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .contact-link a {
-    color: #333;
-
+    color: #f8f9fa;
+}
+.contacting h5 {
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
 }
 
 @media (min-width: 300px){
@@ -91,11 +95,11 @@
         align-items: center;
     }
     .contact-link a {
-        font-size: 20px;
-        font-family: "Roboto", sans-serif;
+        font-size: 25px;
         margin: 20px;
         font-weight: lighter;
         letter-spacing: 2px;
+
     }
     .contact-link svg {
         margin: 20px;
