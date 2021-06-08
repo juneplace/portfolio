@@ -2,26 +2,23 @@
 	font-variant: normal;	
 	font-weight: lighter;	
 }
-.sub {
+.sub span{
 	font-family: "Bradley Hand ITC";
 	color: #D90452;
 	font-variant: normal;
 }
-.mn {
+.mn span {
 	font-variant: normal;
 	font-weight: lighter;
 }
 .card1 {
-	margin-top: 20px;
-	margin-bottom: 20px;
 	padding: 20px;
 }
 .card1 h4 {
 	color: #D90452;
 }
-.card1:hover {
 
-}
+
 @media (min-width: 300px){
 		.row1 p{
 			letter-spacing: 1px;
@@ -70,7 +67,7 @@
 		margin-left: 550px;
 		width: 56%;
 	}
-	.sub {
+	.sub span{
 		font-size: 30px;
 	}
 	table {
@@ -81,19 +78,11 @@
 		padding: 15px;
 		text-align: left;
 	}
-	.mn {
+	.mn span{
 		font-size: 30px;
 	}
-	.cardwrapper {
-		display: grid;
-		grid-template-columns: 45% 45%;
-		justify-content: space-between;
-		grid-template-rows: auto auto;
-	}
 	.card1 {
-		grid-column: auto;
-		grid-row: auto;
-		text-align: center;
+		text-align: left;
 	}
 	.card1 p {
 		font-size: 25px;
