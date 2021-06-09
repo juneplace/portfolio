@@ -3,9 +3,7 @@
 	font-weight: lighter;	
 }
 .sub span{
-	font-family: "Bradley Hand ITC";
 	color: #D90452;
-	font-variant: normal;
 }
 .mn span {
 	font-variant: normal;
@@ -76,7 +74,7 @@
 	}
 	td {
 		padding: 15px;
-		text-align: left;
+		text-align: right;
 	}
 	.mn span{
 		font-size: 30px;
