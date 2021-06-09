@@ -16,26 +16,78 @@
 	color: #D90452;
 }
 
-
 @media (min-width: 300px){
-		.row1 p{
-			letter-spacing: 1px;
-			font-family: "Roboto", sans-serif;
-			font-variant: normal;
-			font-weight: 500;
-			font-size: 17px;
-			margin-bottom: 50px;
-			}
+	.about {
+		padding-top: 50px;
+		}
+	.aboutCv p {
+		font-size: 20px;
+		}
+	.aboutCv h4 {
+		font-size: 20px;
+		}
+	.aboutCv {
+		justify-items: left;
+		margin-left: 250px;
+		width: 58%;
+		}
+	.sub span{
+		font-size: 15px;
+		}
+	table {
+		margin-top: 50px;
+		margin-left: 0;
+		}
+	td {
+		padding: 10px;
+		text-align: right;
+		}
+	.mn span{
+		font-size: 15px;
+		}
+	.card1 {
+		text-align: left;
+		}
+	.card1 p {
+		font-size: 15px;
+		}
 
 }
 @media (min-width: 768px){
-.row1 p{
-	letter-spacing: 1px;
-	font-family: "Roboto", sans-serif;
-	font-variant: normal;
-	font-weight: 500;
-	font-size: 20px;
-	}
+	.about {
+		padding-top: 50px;
+		}
+	.aboutCv p {
+		font-size: 20px;
+		}
+	.aboutCv h4 {
+		font-size: 20px;
+		}
+	.aboutCv {
+		justify-items: left;
+		margin-left: 250px;
+		width: 58%;
+		}
+	.sub span{
+		font-size: 15px;
+		}
+	table {
+		margin-top: 50px;
+		margin-left: 0;
+		}
+	td {
+		padding: 10px;
+		text-align: right;
+		}
+	.mn span{
+		font-size: 15px;
+		}
+	.card1 {
+		text-align: left;
+		}
+	.card1 p {
+		font-size: 15px;
+		}
 }
 @media (min-width: 1024px) {
 .about {

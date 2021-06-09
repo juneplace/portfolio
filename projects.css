@@ -36,7 +36,31 @@
 
 }
 @media (min-width: 768px) {
-
+  .wrapper2 {
+		justify-items: left;
+		margin-left: 250px;
+		width: 58%;
+  }
+  .project1 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 35px;
+  }
+  .projecttitle {
+    font-size: 25px;
+  }
+  .projectintro {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .projects {
+    padding-top: 50px;
+		margin-top: 50px;
+  }
+  .projectsub {
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
 }
 @media(min-width: 1000px){
   .wrapper2 {
