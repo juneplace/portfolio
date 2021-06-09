@@ -20,12 +20,15 @@
 }
 
 @media (min-width: 300px){
-   #email{
-       font-size: smaller;
-   }
-
     .contact {
-        margin-bottom: 10px;
+        margin-bottom: 100px;
+        padding-top: 50px;
+		margin-top: 50px;
+    }
+    .contacting {
+        justify-items: left;
+		margin-left: 20px;
+		margin-right: 20px;
     }
     .contact-link {
         margin-top: 50px;
@@ -33,10 +36,10 @@
         align-items: center;
     }
     .contact-link a {
-        font-size: 10px;
-        font-family: "Roboto", sans-serif;
+        font-size: 20px;
         margin: 20px;
         font-weight: lighter;
+        letter-spacing: 2px;
     }
     .contact-link svg {
         margin: 20px;

@@ -14,9 +14,24 @@
 
  
 @media (min-width: 300px) {
-    .aboutLang {
-		height: 100%;
-		width: 100%;		
+	.wrapper1 {
+		justify-items: left;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.servicetitle {
+		font-size: 20px;
+	}
+	.serviceintro {
+		font-size: 20px;
+	}
+	.service {
+		margin-top: 35px;
+		margin-bottom: 35px;
+	}
+	.services {
+		padding-top: 50px;
+		margin-top: 50px;
 	}
 }
 @media (min-width: 768px) {

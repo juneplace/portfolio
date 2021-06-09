@@ -28,11 +28,11 @@
 		}
 	.aboutCv {
 		justify-items: left;
-		margin-left: 250px;
-		width: 58%;
+		margin-left: 20px;
+		margin-right: 20px;
 		}
 	.sub span{
-		font-size: 15px;
+		font-size: 20px;
 		}
 	table {
 		margin-top: 50px;
@@ -43,13 +43,13 @@
 		text-align: right;
 		}
 	.mn span{
-		font-size: 15px;
+		font-size: 20px;
 		}
 	.card1 {
 		text-align: left;
 		}
 	.card1 p {
-		font-size: 15px;
+		font-size: 20px;
 		}
 
 }
