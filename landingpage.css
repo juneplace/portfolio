@@ -33,9 +33,9 @@ body {
 		width: 10px;
 		height: var(--scroll-per);
 		position: fixed;
-		border-left: 2px solid #D90452;
+		border-left: 5px solid #D90452;
 		background-repeat: no-repeat;
-		left: 20px;
+		left: 0;
 		top: 0;
 		overflow: hidden;
 		z-index: 3;
@@ -45,7 +45,7 @@ body {
 	}
 	.heroText h1{
 		font-family: "Bodoni MT";
-		font-size: 6em;
+		font-size: 5.5em;
 		letter-spacing: .15em;
 		line-height: 1.2;
 	}

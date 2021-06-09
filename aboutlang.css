@@ -13,7 +13,7 @@
 }
 
  
-@media (min-width: 300px) {
+@media (min-width: 200px) {
 	.wrapper1 {
 		justify-items: left;
 		margin-left: 20px;

@@ -16,7 +16,7 @@
 	color: #D90452;
 }
 
-@media (min-width: 300px){
+@media (min-width: 200px){
 	.about {
 		padding-top: 50px;
 		}

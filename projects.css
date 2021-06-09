@@ -32,7 +32,7 @@
 }
 
 
-@media (min-width: 300px){
+@media (min-width: 200px){
   .wrapper2 {
 		justify-items: left;
 		margin-left: 20px;
