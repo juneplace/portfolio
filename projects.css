@@ -23,6 +23,13 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.projectsub{
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-decoration: none;
+}
 
 
 @media (min-width: 300px){
@@ -55,5 +62,9 @@
   .projects {
     padding-top: 50px;
 		margin-top: 50px;
+  }
+  .projectsub {
+    font-size: 25px;
+    letter-spacing: 3px;
   }
 }
