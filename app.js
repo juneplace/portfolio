@@ -60,17 +60,5 @@ window.addEventListener(
                 });
 
 
-let navbarLink = document.getElementsByClassName('nav-link');
-
-
-
-function resizeNavbar() {
-    if(screen.width <= 768) {
-      return  navbarLink.innerHTML = "";
-    }
-    else {
-
-    } 
-}
 
 

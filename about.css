@@ -2,18 +2,22 @@
 	font-variant: normal;	
 	font-weight: lighter;	
 }
-.sub span{
-	color: #D90452;
-}
-.mn span {
-	font-variant: normal;
+.technologies {
 	font-weight: lighter;
+	text-align: left;
 }
 .card1 {
 	padding: 20px;
 }
 .card1 h4 {
 	color: #D90452;
+}
+.technologies h4 {
+	text-decoration: underline overline;
+}
+.technologies li {
+	list-style: none;
+	font-variant: normal;
 }
 
 @media (min-width: 200px){
@@ -31,18 +35,14 @@
 		margin-left: 20px;
 		margin-right: 20px;
 		}
-	.sub span{
+	.technologies h4{
 		font-size: 20px;
 		}
-	table {
+	.technologies {
 		margin-top: 50px;
-		margin-left: 0;
+		margin-left: 20px;
 		}
-	td {
-		padding: 10px;
-		text-align: right;
-		}
-	.mn span{
+	.technologies li{
 		font-size: 20px;
 		}
 	.card1 {
@@ -68,25 +68,21 @@
 		margin-left: 250px;
 		width: 58%;
 		}
-	.sub span{
-		font-size: 15px;
+	.technologies h4{
+		font-size: 20px;
 		}
-	table {
+	.technologies {
 		margin-top: 50px;
 		margin-left: 0;
 		}
-	td {
-		padding: 10px;
-		text-align: right;
-		}
-	.mn span{
-		font-size: 15px;
+	.technologies li{
+		font-size: 20px;
 		}
 	.card1 {
 		text-align: left;
 		}
 	.card1 p {
-		font-size: 15px;
+		font-size: 20px;
 		}
 }
 @media (min-width: 1024px) {
@@ -104,18 +100,14 @@
 	margin-left: 400px;
 	width: 58%;
 	}
-.sub span{
+.technologies h4{
 	font-size: 20px;
 	}
-table {
+.technologies {
 	margin-top: 50px;
 	margin-left: 0;
 	}
-td {
-	padding: 15px;
-	text-align: right;
-	}
-.mn span{
+.technologies li{
 	font-size: 20px;
 	}
 .card1 {
@@ -143,18 +135,14 @@ td {
 		margin-left: 550px;
 		width: 56%;
 	}
-	.sub span{
+	.technologies h4{
 		font-size: 30px;
 	}
-	table {
+	.technologies {
 		margin-top: 50px;
 		margin-left: 0;
 	}
-	td {
-		padding: 15px;
-		text-align: right;
-	}
-	.mn span{
+	.technologies li{
 		font-size: 30px;
 	}
 	.card1 {
