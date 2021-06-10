@@ -61,10 +61,10 @@ window.addEventListener(
 
 
                 $(document).ready(function(){
-                    $('.js-menu').click(function() {
+                    $('.js-menu').click(function(){
                         $('.js-menu').toggleClass('active');
                         $('.js-nav').toggleClass('open');
-                        $('.js-nav__list').toggleClass('show');
+                        $('.js-nav_list').toggleClass('show');
                     });
                 })
          
