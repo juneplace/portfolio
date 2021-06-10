@@ -58,3 +58,19 @@ window.addEventListener(
                     $('#projectsub4').css({'visibility': 'hidden'});
                 })
                 });
+
+
+let navbarLink = document.getElementsByClassName('nav-link');
+
+
+
+function resizeNavbar() {
+    if(screen.width <= 768) {
+      return  navbarLink.innerHTML = "";
+    }
+    else {
+
+    } 
+}
+
+
