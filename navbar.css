@@ -117,6 +117,9 @@
 		text-decoration: none;
 		color: #fff;
 	  }
+	  .nav1__link:hover{
+		  color: #D90452;
+	  }
 	  
 	  @keyframes fadein {
 		0% {
