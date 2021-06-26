@@ -17,12 +17,37 @@
   font-variant: normal;
 }
 
-.project1:hover {
+#project1:hover {
   background-image: url(images/comp1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+#project2:hover {
+  background-image: url(images/comp2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#project3:hover {
+  background-image: url(images/comp3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#project4:hover {
+  background-image: url(images/comp4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#project5:hover {
+  background-image: url(images/comp5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .projectsub{
   position: relative;
   display: flex;
