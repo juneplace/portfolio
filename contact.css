@@ -1,0 +1,131 @@
+.linky{
+    margin-top: 20px;
+}
+.contact-link {
+    display: flex;
+    align-items: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.contact-link a {
+    color: #333;
+}
+.contacting h5 {
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+@media (min-width: 200px){
+    .contact {
+        margin-bottom: 100px;
+        padding-top: 50px;
+		margin-top: 50px;
+    }
+    .contacting {
+        justify-items: left;
+		margin-left: 20px;
+		margin-right: 20px;
+    }
+    .contact-link {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        align-items: center;
+    }
+    .contact-link a {
+        font-size: 20px;
+        margin: 20px;
+        font-weight: lighter;
+        letter-spacing: 2px;
+    }
+    .contact-link svg {
+        margin: 20px;
+    }
+    #email {
+        font-size: 15px;
+    }
+}
+@media (min-width: 768px){
+    .contact {
+        margin-bottom: 100px;
+        padding-top: 50px;
+		margin-top: 50px;
+    }
+    .contacting {
+        justify-items: left;
+		margin-left: 250px;
+		width: 58%;
+    }
+    .contact-link {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        align-items: center;
+    }
+    .contact-link a {
+        font-size: 20px;
+        margin: 20px;
+        font-weight: lighter;
+        letter-spacing: 2px;
+    }
+    .contact-link svg {
+        margin: 20px;
+    }
+    #email {
+        font-size: 20px;
+    }
+}
+@media (min-width: 1024px){
+    .contact {
+        margin-bottom: 100px;
+        padding-top: 50px;
+		margin-top: 50px;
+    }
+    .contacting {
+        justify-items: left;
+		margin-left: 400px;
+		width: 58%;
+    }
+    .contact-link {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        align-items: center;
+    }
+    .contact-link a {
+        font-size: 20px;
+        margin: 20px;
+        font-weight: lighter;
+        letter-spacing: 2px;
+    }
+    .contact-link svg {
+        margin: 20px;
+    }
+}
+@media (min-width: 1440px){
+    .contacting {
+        justify-items: right;
+		margin-left: 550px;
+		width: 56%;
+    }
+    .contact {
+        margin-bottom: 100px;
+        padding-top: 50px;
+		margin-top: 50px;
+    }
+    .contact-link {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        align-items: center;
+    }
+    .contact-link a {
+        font-size: 25px;
+        margin: 20px;
+        font-weight: lighter;
+        letter-spacing: 2px;
+
+    }
+    .contact-link svg {
+        margin: 20px;
+    }
+}
+
+

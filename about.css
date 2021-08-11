@@ -1,0 +1,164 @@
+.aboutCv p {
+	font-variant: normal;	
+	font-weight: lighter;	
+}
+.technologies {
+	font-weight: lighter;
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-start;
+}
+.tech-cont {
+	border-left: #41A689 solid 2px;
+	margin-right: 200px;
+}
+
+.card1 {
+	padding: 20px;
+}
+.card1 h4 {
+	color: #41A689;
+}
+.technologies h4 {
+color: #41A689;
+
+}
+.technologies li {
+	list-style: none;
+	font-variant: normal;
+}
+
+@media (min-width: 200px){
+	.about {
+		padding-top: 50px;
+		}
+	.aboutCv p {
+		font-size: 20px;
+		}
+	.aboutCv h4 {
+		font-size: 20px;
+		}
+	.aboutCv {
+		justify-items: left;
+		margin-left: 20px;
+		margin-right: 20px;
+		}
+	.technologies h4{
+		font-size: 20px;
+		}
+	.technologies {
+		margin-top: 50px;
+		margin-left: 20px;
+		}
+	.technologies li{
+		font-size: 20px;
+		}
+	.card1 {
+		text-align: left;
+		}
+	.card1 p {
+		font-size: 20px;
+		}
+
+}
+@media (min-width: 768px){
+	.about {
+		padding-top: 50px;
+		}
+	.aboutCv p {
+		font-size: 20px;
+		}
+	.aboutCv h4 {
+		font-size: 20px;
+		}
+	.aboutCv {
+		justify-items: left;
+		margin-left: 250px;
+		width: 58%;
+		}
+	.technologies h4{
+		font-size: 20px;
+		}
+	.technologies {
+		margin-top: 50px;
+		margin-left: 0;
+		}
+	.technologies li{
+		font-size: 20px;
+		}
+	.card1 {
+		text-align: left;
+		}
+	.card1 p {
+		font-size: 20px;
+		}
+}
+@media (min-width: 1024px) {
+.about {
+	padding-top: 50px;
+	}
+.aboutCv p {
+	font-size: 25px;
+	}
+.aboutCv h4 {
+	font-size: 25px;
+	}
+.aboutCv {
+	justify-items: left;
+	margin-left: 400px;
+	width: 58%;
+	}
+.technologies h4{
+	font-size: 20px;
+	}
+.technologies {
+	margin-top: 50px;
+	margin-left: 0;
+	}
+.technologies li{
+	font-size: 20px;
+	}
+.card1 {
+	text-align: left;
+	}
+.card1 p {
+	font-size: 20px;
+	}
+}
+@media (min-width: 1440px) {
+	.about {
+		padding-top: 50px;
+		}
+	.about h2 {
+		text-align: left;
+		}
+	.aboutCv p {
+		font-size: 30px;
+	}
+	.aboutCv h4 {
+		font-size: 30px;
+	}
+	.aboutCv {
+		justify-items: left;
+		margin-left: 550px;
+		width: 56%;
+	}
+	.technologies h4{
+		font-size: 30px;
+	}
+	.technologies {
+		margin-top: 50px;
+		margin-left: 0;
+	}
+	.technologies li{
+		font-size: 30px;
+	}
+	.card1 {
+		text-align: left;
+	}
+	.card1 p {
+		font-size: 25px;
+	}
+}
+
+  

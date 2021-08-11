@@ -1,0 +1,133 @@
+.projecttitle span{
+  color: #41A689;
+  padding-right: 20px;
+}
+
+.projectintro {
+  font-weight: lighter;
+  font-variant: normal;
+}
+.project1 {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+}
+
+
+.projectsub{
+  display: flex;
+  align-content: center;
+  justify-content: left;
+  text-decoration: none;
+}
+
+
+@media (min-width: 200px){
+  .wrapper2 {
+		justify-items: left;
+		margin-left: 20px;
+    margin-right: 20px;
+  }
+  .project1 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 35px;
+  }
+  .projecttitle {
+    font-size: 25px;
+  }
+  .projectintro {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .projects {
+    padding-top: 50px;
+		margin-top: 50px;
+  }
+  .projectsub {
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+}
+@media (min-width: 768px) {
+  .wrapper2 {
+		justify-items: left;
+		margin-left: 250px;
+		width: 58%;
+  }
+  .project1 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 35px;
+  }
+  .projecttitle {
+    font-size: 25px;
+  }
+  .projectintro {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .projects {
+    padding-top: 50px;
+		margin-top: 50px;
+  }
+  .projectsub {
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+}
+@media(min-width: 1000px){
+  .wrapper2 {
+		justify-items: left;
+		margin-left: 400px;
+		width: 58%;
+  }
+  .project1 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 35px;
+  }
+  .projecttitle {
+    font-size: 30px;
+  }
+  .projectintro {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .projects {
+    padding-top: 50px;
+		margin-top: 50px;
+  }
+  .projectsub {
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+}
+@media(min-width: 1440px) {
+  .wrapper2 {
+		justify-items: left;
+		margin-left: 550px;
+		width: 56%;
+  }
+  .project1 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 35px;
+  }
+  .projecttitle {
+    font-size: 30px;
+  }
+  .projectintro {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .projects {
+    padding-top: 50px;
+		margin-top: 50px;
+  }
+  .projectsub {
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+}
